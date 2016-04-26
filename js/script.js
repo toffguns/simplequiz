@@ -16,7 +16,7 @@ function submitAnswers() {
             return false;
         }
     }
-    // Set Correct Answers
+// Set Correct Answers
     var answers = ["b", "a", "d", "b", "d"];
 
     // Check Answers
@@ -28,7 +28,8 @@ function submitAnswers() {
     }
 
     var results = document.getElementById('results');
-    results.innerHTML = '<h3>YOur scored <span>'+score+'</span> out of <span>'+total+'</span></h3>';
+    results.innerHTML = '<h3>You scored <span>'+score+'</span> out of <span>'+total+'</span></h3>';
     alert( 'You scored '+score+' out of ' +total);
 
     return false;
+}
